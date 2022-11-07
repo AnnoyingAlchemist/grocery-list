@@ -29,6 +29,7 @@ function addElement() {
     $(this).parent().addClass('cool');
     var userinput = $(this).val();
     $(this).parent().text(userinput);
+    $('li').click(changeStyle);
   });
 }
 
